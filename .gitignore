@@ -1,0 +1,29 @@
+# Manuscript folder (kept locally, not published to public repo)
+paper/
+
+# Data (large binary files — download from IEG)
+data/*.xlsx
+data/*.xls
+data/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reference PDFs at repo root (not part of repo)
+*.sagepub.com*.pdf
+pmi.org*.pdf
+European Management Review*.pdf
+
+# Local IDE / agent settings
+.claude/
+
+# Author CV
+CV_*.md
